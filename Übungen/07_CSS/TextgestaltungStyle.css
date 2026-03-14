@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com');
+
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 20px;
+    min-width: 980px;
+    max-width: 1400px;
+}
+
+/* Layout */
+
+main {
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+/* header and footer */
+
+header {
+    border-bottom: 5px solid #aa6666;
+}
+
+footer {
+    border-top: 5px solid #aa6666;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Textgestaltung */
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    letter-spacing: 0.013em;
+}
+
+h1, h2 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+h1 {
+    font-size: 3em; 
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+p {
+    text-indent: 2rem;
+}
+
+
+a {
+    color: #aa6666;
+}
+
+a:visited {
+    color: #aa6688;
+}
+
+a:hover {
+    color: #aa3333;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 3px solid #aa6666;
+    outline-offset: 2px;
+    background-color: #aa888844;
+    text-decoration: none;
+}
+
+a[href*="http"] {
+    padding-right: 16px;
+    background: url("external-link-52.png") no-repeat right center;
+    background-size: 14px 14px;
+}
+
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav li {
+    font-size: larger;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    outline: 3px solid #aa6666;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+nav li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #aa6666;
+}
+
+nav li a:focus,
+nav li a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 0 #00000026;
+    color: #aa6666;
+    background-color: #00000000;
+    border: none;
+}
