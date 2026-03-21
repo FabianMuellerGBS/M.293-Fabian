@@ -8,7 +8,7 @@ body
 {
     height: var(--hight);
     width: var(--width);
-    margin: 50px;
+    margin: auto;
 }
 
 h2, p
