@@ -1,0 +1,68 @@
+:root
+{
+    --hight: 900px;
+    --width: 1600px;
+}
+
+body 
+{
+    height: var(--hight);
+    width: var(--width);
+    margin: 50px;
+}
+
+h2, p
+{
+    margin: 20px;
+}
+
+nav
+{
+    background-color: #564B47;
+    color: white;
+    width: 100%;
+    height: 7.14%;
+    margin: 0;
+}
+
+nav div
+{
+    float: left;
+    padding: 0 40px 0 40px;
+    height: 100%;
+    display: block;
+}
+
+nav div p {
+    margin: 0;
+    line-height: calc(var(--hight) * 0.0714);
+}
+
+main
+{
+    background-color: #EDEDED;
+    width: 80%;
+    height: 78.57%;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+}
+
+aside
+{
+    background-color: #FFA500;
+    width: 20%;
+    height: 78.57%;
+    margin: 0;
+    float: right;
+}
+footer
+{
+    background-color: #564B47;
+    color: white;
+    width: 100%;
+    height: 14.29%;
+    margin: 0;
+    clear: both;
+    overflow: hidden;
+}
