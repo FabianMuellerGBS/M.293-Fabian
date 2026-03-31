@@ -1,0 +1,86 @@
+#colorBox 
+{
+    width: 100%;
+    height: 100%;
+    background-color: #ff0000; 
+}
+
+@media (max-width: 1400px) 
+{
+    #colorBox 
+    { 
+        background-color: #e6001a; 
+    }
+}
+
+@media (max-width: 1300px) 
+{
+    #colorBox 
+    { 
+        background-color: #cc0033; 
+    }
+}
+
+@media (max-width: 1250px) 
+{
+    #colorBox 
+    { 
+        background-color: #b3004d; 
+    }
+}
+
+@media (max-width: 1120px) 
+{
+    #colorBox 
+    { 
+        background-color: #990066; 
+    }
+}
+
+@media (max-width: 1040px) 
+{
+    #colorBox 
+    { 
+        background-color: #800080; 
+    }
+}
+
+@media (max-width: 960px) 
+{
+    #colorBox 
+    { 
+        background-color: #660099; 
+    }
+}
+
+@media (max-width: 880px) 
+{
+    #colorBox 
+    { 
+        background-color: #4d00b3; 
+    }
+}
+
+@media (max-width: 800px) 
+{
+    #colorBox 
+    { 
+        background-color: #3300cc; 
+    }
+}
+
+@media (max-width: 660px) 
+{
+    #colorBox 
+    { 
+        background-color: #1a00e6; 
+    }
+}
+
+@media (max-width: 580px) 
+{
+    #colorBox 
+    { 
+        background-color: #0000ff; 
+    }
+}
